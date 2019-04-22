@@ -9,7 +9,7 @@ h1 {
 }
 
 h3 { 
-    font-family: Dokdo;
+    font-family: Dokdo, sans-serif;
     font-size: 30px;
 } 
 
@@ -21,6 +21,9 @@ li {
     display: inline;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 
