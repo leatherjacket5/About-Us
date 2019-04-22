@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+
+body{
+    background-color: rgb(220, 220, 220);
+}
+
+h1 {
+    color: rgb(240, 6, 6);
+}
+
+h3 { 
+    font-family: Dokdo;
+    font-size: 30px;
+} 
+
+img {
+    width: 200px;
+}
+
