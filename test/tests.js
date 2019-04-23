@@ -1,22 +1,27 @@
 const test = QUnit.test;
 
 function scoreAnswers (roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer) {
+    roosterAnswer = roosterAnswer.toLowerCase();
+    leatherAnswer = leatherAnswer.toLowerCase();
+    phoenixAnswer = phoenixAnswer.toLowerCase();
+    rockyAnswer = rockyAnswer.toLowerCase();
+    trickAnswer = trickAnswer.toLowerCase();
 
     let score = 0;
 
-    if(roosterAnswer === 'Zach') {
+    if(roosterAnswer === 'zach') {
         score += 1;
     }
     if(leatherAnswer === '2') {
         score += 1;
     }
-    if(phoenixAnswer === 'Carlos') {
+    if(phoenixAnswer === 'carlos') {
         score += 1;
     }
-    if(rockyAnswer === 'Caleb') {
+    if(rockyAnswer === 'caleb') {
         score += 1;
     }
-    if(trickAnswer === 'NOBODY') {
+    if(trickAnswer === 'nobody') {
         score += 1;
     }
     return score;
