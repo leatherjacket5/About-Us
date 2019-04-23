@@ -12,7 +12,6 @@ submitButton.addEventListener('click', () => {
     const phoenixAnswer = phoenixInput.value;
     const rockyAnswer = rockyInput.value;
     const trickAnswer = trickInput.value;
-    console.log(roosterAnswer);
-    
+    console.log(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer);
 });
 
