@@ -1,4 +1,4 @@
-import scoreAnswers from '../src/score-answer';
+import scoreAnswers from '../src/score-answer.js';
 const test = QUnit.test;
 
 test('all right answers is 5', function(assert) {

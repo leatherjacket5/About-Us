@@ -23,4 +23,6 @@ function scoreAnswers (roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer,
         score += 1;
     }
     return score;
-};
+}
+
+export default scoreAnswers; 
