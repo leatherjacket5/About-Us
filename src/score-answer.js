@@ -1,4 +1,4 @@
-function scoreAnswers (roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer) {
+function scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer) {
     roosterAnswer = roosterAnswer.toLowerCase();
     leatherAnswer = leatherAnswer.toLowerCase();
     phoenixAnswer = phoenixAnswer.toLowerCase();

@@ -13,10 +13,11 @@ test('all right answers is 5', function(assert) {
 
     //Act 
     // Call the function you're testing and set the result to a const
-    const score = scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer)
+    const score = scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer);
 
     //Assert
     assert.equal(score, expected);
+
 });
 
 test('all wrong answers is 0', function(assert) {
@@ -31,8 +32,9 @@ test('all wrong answers is 0', function(assert) {
 
     //Act 
     // Call the function you're testing and set the result to a const
-    const score = scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer)
+    const score = scoreAnswers(roosterAnswer, leatherAnswer, phoenixAnswer, rockyAnswer, trickAnswer);
 
     //Assert
     assert.equal(score, expected);
+    
 });
