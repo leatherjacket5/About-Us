@@ -25,5 +25,18 @@ a {
     text-decoration: none;
 }
 
+button {
+    font-size: 2em;
+
+}
+
+label {
+    display: block;
+}
+
+label, button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 
 
